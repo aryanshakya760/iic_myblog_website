@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>ARYAN SHAKYA | CONTACT</title>
+</head>
+	<link rel="stylesheet" type="text/css" href="../css/contact.css">
+</head>
+<body>
+	<header>
+		<div class="main">
+			<ul>
+  				<li><a href="home.html">Home</a></li>
+  				<li><a href="cv.html">CV</a></li>
+  				<li><a href="blog.html">Blog</a></li>
+  				<li><a href="Research.html">Research</a></li>
+  				<li class="active"><a href="contact.html">Contact Me</a></li>
+			</ul>
+		</div>
+	</header>
+	<form onsubmit="validateForm()" name="messageForm" class="don">
+		Firstname: <input type="text" name="fname"placeholder="Enter your First Name"><br><br>
+		Lastname: <input type="text" name="lname"  placeholder="Enter your Last Name"><br><br>
+		Address: <input type="text" name="address"placeholder="Enter your Address"><br><br>
+		Comment: <input type=text width = "40px" name="comment" height = "40px"><br><br>
+		<input type="submit" name="Submit">
+		<input type="radio" name="Male" id="Male"><span id="Male">&nbsp; Male</span>&nbsp;&nbsp;
+			
+		<input type="radio" name="Female" id="Female"><span id="Female">&nbsp; Female</span>&nbsp;&nbsp;
+			
+		<input type="radio" name="Others" id="Others"><span id="Others">&nbsp; Others</span>&nbsp;&nbsp;<br><br>
+	</form>
+
+<script type="text/javascript">
+	function validateForm() {
+		var fname = document.forms["messageForm"]["fname"].value;
+		var lname = document.forms["messageForm"]["lname"].value;
+		var address = document.forms["messageForm"]["address"].value;
+		var comment = document.forms["messageForm"]["comment"].value;
+		
+		if (fname =="" ||lname =="" ||address =="" ||comment =="") {
+			alert("Please fill the field");
+		}else{
+			
+			alert("Thank you "+fname+" "+lname);
+			alert("Your details: "+
+				"Firstname: "+fname+" "+
+				"Lastname: "+lname+" "+
+				"Address: "+address+" "+
+				"Comment: "+ comment);
+		}
+	}
+	
+</script>
+
+</body>
+
+</html>

@@ -1,0 +1,116 @@
+ul{
+	float: right;
+	list-style-type: none;
+	margin: 0px;
+}
+body {
+	background-color: grey;
+}
+
+ul li{
+	display: inline-block;
+}
+header h1{
+	text-align: center;
+}
+
+ul li a{
+	font-family: "Comic Sans Ms", Arial;
+	text-decoration: none;
+	color: black;
+	padding: 10px 20px;
+	border: 2px solid;
+	transition: 0.7s ease;
+	background-color: brown;
+	min-height: 70px;
+
+}
+
+ul li a:hover{
+	background-color: white;
+	color: black;
+
+}
+body{
+	font-family: Arial;
+	font-size:15px;
+	line-height: 1.5;
+	padding: 0;
+	margin: 0;
+	background-color: none;
+}
+/* */
+.container{
+	width: 70%;
+	margin: auto;
+	overflow: hidden;
+}
+.dark{
+  padding: 15px;
+  background: #35424a;
+  color:white;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+header ul li.active a{
+	background-color: blue;
+    color: black;
+}
+header #branding{
+	float: left;
+}
+header #branding h1{
+	margin: 0;
+}
+
+header .highlight, header .current a{
+	color: white;
+	font-weight: bold;
+}
+
+#boxes{
+	margin-top: 20px;
+}
+#boxes .box{
+	float: left;
+	text-align: center;
+	width: 30%;
+	padding: 10px;
+}
+article#main-col{
+  float: left;
+  width: 70%;
+  margin-bottom: 10px;
+}
+ul#research{
+    margin-left: 80px;
+}
+/*setting the styles and background for the components in list*/
+ul#research li{
+  list-style: none;
+   padding: 10px;
+   border: white solid 2px;
+   margin-bottom: 10px;
+   background: lightgoldenrodyellow;
+}
+
+aside#sidebar{
+  float: right;
+  width: 30%;
+  margin-top: 10px;
+  background-color: orange;
+}
+/*making an id and allocating its position*/
+#side_bar{
+  background-color: green;
+  width: 28%;
+  text-align: center;
+}
+/*customizing the input fields*/
+#side_bar input[type="text"],input[type="email"],textarea{
+  resize: none;
+  width: 80%;
+  margin-bottom: 10px;
+
+}

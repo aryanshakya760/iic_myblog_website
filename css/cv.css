@@ -1,0 +1,70 @@
+
+ul{
+	float: right;
+	list-style-type: none;
+	margin:0px;
+}
+
+ul li{
+	display: inline-block;
+}
+
+ul li a{
+	font-family: "Comic Sans Ms", Arial;
+	text-decoration: none;
+	padding: 10px 20px;
+	border: 2px solid;
+	transition: 0.7s ease;
+	background-color: blue;
+	color: yellow;
+	min-height: 70px;
+
+}
+
+ul li a:hover{
+	background-color: red;
+	color: black;
+}
+h1{
+	font-size: 50px;
+	color: white;
+
+}
+.main{
+	max-width: 1200px;
+	margin: auto; 
+}
+
+.column{
+	font-family: sans-serif;
+	float: left;
+	padding: 80px;
+}
+
+ body{
+	font-family: Arial;
+	font-size:15px;
+	line-height: 1.5;
+	padding: 0;
+	margin: 0;
+	background-color: white;
+}
+
+/* Header */
+header{
+	background: black;
+	padding-top: 10px;
+	min-height: 70px;
+	border-bottom: #e8491d 3px solid;
+}
+
+ul li.active a{
+    color: black;
+    background-color: white;
+}
+h3{
+	font-size: 80px;
+}
+
+
+ 
